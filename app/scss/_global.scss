@@ -27,6 +27,18 @@ body {
     line-height: 24px;
     font-weight: 400;
     color: $text;
+    overflow-x: hidden;
+}
+.header {
+    background-color: #FFF;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+.content {
+    flex: 1 0 auto;
 }
 .container {
     max-width: 1200px;
@@ -56,4 +68,17 @@ body {
 .rate-star {
     display: inline-block;
     margin-right: 12px;
+}
+
+.angle-right {
+    position: relative;
+    padding-left: 15px;
+    &::before {
+        position: absolute;
+        left: 0;
+        content: "\f105";
+        font-family: "icomoon";
+        font-size: 14px;
+        color: $green;
+    }
 }
