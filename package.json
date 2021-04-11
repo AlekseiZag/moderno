@@ -25,5 +25,9 @@
     "rateyo": "^3.0.0-alpha.2",
     "slick-carousel": "^1.8.1"
   },
-  "dependencies": {}
+  "dependencies": {
+    "ion-rangeslider": "^2.3.1",
+    "jquery-form-styler": "^2.0.2",
+    "save-dev": "0.0.1-security"
+  }
 }
